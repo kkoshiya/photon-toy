@@ -2,12 +2,12 @@
 <html>
 
 <header>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  <script src="functions.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{url_for('static', filename='js/functions.js')}}"></script>
   <h1>Kyle Koshiyama</h1>
   <div>
-    <a href="images/Resume 2021.pdf" target="_blank" download>Download Resume</a>
-    <a href="blog.html">Economic Blog</a>
+    <a href="{{ url_for('static', filename='images/Resume 2021.pdf') }}" target="_blank" download>Download Resume</a>
+    <a href="/blog">Economic Blog</a>
   </div>
 </header>
 
@@ -41,7 +41,7 @@
       <ul></ul>
       <li>
         <a href="https://github.com/ethereumbook/ethereumbook/blob/develop/07smart-contracts-solidity.asciidoc"><img
-            src="images/K.png" alt="HTML tutorial"></a>
+            src="{{ url_for('static', filename='images/K.png') }}" alt="HTML tutorial"></a>
       </li>
 
     </div>
