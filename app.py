@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import (Flask, render_template)
 
 app = Flask(__name__)
 
-@app.route('/health')
+@app.route('/')
 def photon():
-  return "{'success': 'true'} hi im paul"
+  return render_template('index.html')
