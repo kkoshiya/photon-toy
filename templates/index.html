@@ -2,36 +2,63 @@
 <html>
 
 <header>
+  <meta http-equiv="Cache-control" content="no-cache">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   <script src="{{url_for('static', filename='js/functions.js')}}"></script>
-  <h1>Kyle Koshiyama</h1>
-  <div>
-    <a href="{{ url_for('static', filename='images/Resume 2021.pdf') }}" target="_blank" download>Download Resume</a>
-    <a href="/blog">Economic Blog</a>
+  <div id="index-bar">
+    <div>
+      <a href="https://www.linkedin.com/in/kyle-koshiyama-8029bb108/" target="_blank">Linkedin</a>
+    </div>
+    <div>
+      <a href="{{ url_for('static', filename='images/Resume 2021.pdf') }}" target="_blank" download>Download Resume</a>
+    </div>
+    <div>
+      <a href="/blog">Economic Blog</a>
+    </div>
+  </div>
+
+  <div id="name">
+    <h1>Kyle Koshiyama</h1>
+    <img src="{{url_for('static', filename='images/headshot.png')}}" alt="">
   </div>
 </header>
 
 <body>
 
-
   <div id="education">
     <h1 id="title">Education</h1>
     <p id="title-bar"></p>
     <div>
-      <ul>
-        <li>University of Michigan</li>
-        <li>University of Michigan Ross School of Bussiness</li>
-        <li>App Academy</li>
+      <ul id='education-list'>
+
+        <li>
+          <img id='education-pic' src="{{url_for('static', filename='images/lsa.png')}}" alt="">
+          <div>
+            <h2>University of Michigan Literature Science & Art</h2>
+          </div>
+        </li>
+
+        <br>
+        <li>
+          <img id='education-pic' src="{{url_for('static', filename='images/lsa.png')}}" alt="">
+          <div>
+            <h2>University of Michigan Ross School of Bussiness</h2>
+          </div>
+        </li>
+        <br>
+        <li>
+          <img id='education-pic' src="{{url_for('static', filename='images/lsa.png')}}" alt="">
+          <div>
+            <h2>App Academy - San Francsico</h2>
+          </div>
+        </li>
       </ul>
     </div>
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
+  </div>
+
+  <div>
+    <h1 id=title>Experince</h1>
+        <p id="title-bar"></p>
   </div>
 
   <div id="projects">

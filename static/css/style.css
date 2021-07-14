@@ -67,7 +67,7 @@ table {
 
 
 #title {
-  color: green;
+  color: orange;
   font-size: 20px;
   margin: auto;
   width: 10%;
@@ -75,7 +75,7 @@ table {
 }
 
 #title-bar {
-  border-bottom: solid 3px green;
+  border-bottom: solid 3px blue;
   width: 25%;
   margin: auto
 }
@@ -83,6 +83,35 @@ table {
 #projects-each{
   height: 10px;
 }
+
+#index-bar {
+ width:100%;
+ text-align:center;
+ background-color: lightblue;
+ position: fixed;
+}
+#index-bar > div {
+ width: calc(100% / 6);  
+ display: inline-block;
+ vertical-align: top;   
+ text-align:center;
+ padding-right: 7.5%;
+ padding-left: 7.5%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+
+}
+
+#name {
+  padding-top: 5%;
+}
+
+#education-pic {
+  height: 15%;
+  width: 15%;
+}
+
+
 
 header {
   /* background-image: url('images/K.png'); */
