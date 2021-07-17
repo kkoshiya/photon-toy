@@ -67,17 +67,18 @@ table {
 
 
 #title {
-  color: orange;
+  color: Black;
   font-size: 20px;
   margin: auto;
   width: 10%;
-  padding: 2%;
+
 }
 
 #title-bar {
-  border-bottom: solid 3px blue;
+  border-bottom: solid 3px black;
   width: 25%;
-  margin: auto
+  margin: auto;
+
 }
 
 #projects-each{
@@ -87,35 +88,67 @@ table {
 #index-bar {
  width:100%;
  text-align:center;
- background-color: lightblue;
+ background-color: lightgray;
  position: fixed;
 }
+
 #index-bar > div {
  width: calc(100% / 6);  
  display: inline-block;
  vertical-align: top;   
  text-align:center;
- padding-right: 7.5%;
- padding-left: 7.5%;
+ margin-right: 5%;
+ margin-left: 2%;
  padding-top: 1%;
  padding-bottom: 1%;
-
+ width: 10vw;
+ height: 3vh;
 }
+
+#index-bar > div:hover {
+  cursor: pointer;
+}
+
 
 #name {
   padding-top: 5%;
 }
 
 #education-pic {
-  height: 15%;
-  width: 15%;
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 50px;
+  max-widht: 50px;
+  padding: 10px;
 }
+
+#education-list{
+  padding-top: 3%;
+}
+
+#education-text {
+  padding-right: 10px;
+}
+
+#education-row {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+
+
+
+
+
+
 
 
 
 header {
   /* background-image: url('images/K.png'); */
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   background-repeat: no-repeat;
 }
 
