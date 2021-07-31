@@ -7,93 +7,51 @@
 </head>
 
 <body>
-  <div class="container px-4">
-    <div class="row gx-5">
-      <div class="col">
-       <div class="p-3 border bg-light">Custom column padding</div>
-      </div>
-      <div class="col">
-        <div class="p-3 border bg-light">Custom column padding</div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
-  </div>
-  <br>
+  </nav>
 
-  <div class="container">
-    <div class="row g-2">
-      <div class="col-6">
-        <div class="p-3 border bg-light">
-           <!-- Button trigger modal -->
-           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-           <img id='education-pic' src="{{url_for('static', filename='images/lsa.png')}}" alt="">
-           </button>
-
-  <!-- Modal -->
-
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <a href="https://kickstart-clone.herokuapp.com/#/"><img
-                    src="{{ url_for('static', filename='images/K.png') }}" alt="HTML tutorial"></a>
-                  <p>Kickstarter Clone</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="p-3 border bg-light">Custom column padding</div>
-      </div>
-      <div class="col-6">
-        <div class="p-3 border bg-light">Custom column padding</div>
-      </div>
-      <div class="col-6">
-        <div class="p-3 border bg-light">Custom column padding</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <img id='education-pic' src="{{url_for('static', filename='images/lsa.png')}}" alt="">
-  </button>
-
-  <!-- Modal -->
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <a href="https://kickstart-clone.herokuapp.com/#/"><img
-            src="{{ url_for('static', filename='images/K.png') }}" alt="HTML tutorial"></a>
-          <p>Kickstarter Clone</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="container">
     <div class="row">
       <div class="col-1"></div>
       <div class="col-8">
         <ul>
-          <li>Photon Commerce flask test 4</li>
+          <li>Photon Commerce flask test </li>
           <div>
             <ul>
               <li>
@@ -111,35 +69,16 @@
       </div>
       <div class="col">2021</div>
     </div>
+
     <div class="row">
-      <div class="col">
+      <div class="col-1"></div>
+      <div class="col-8">
         <ul>
-          <li>Simulation Systems</li>
+          <li>Photon Commerce flask test </li>
           <div>
             <ul>
               <li>
-                i did this at work
-              </li>
-              <li>
-                i did this at work 2
-              </li>
-              <li>
-                i did this at work 3
-              </li>
-            </ul>
-          </div>
-        </ul>
-      </div>
-      <div class="col">2020</div>
-    </div>   
-     <div class="row">
-      <div class="col">
-        <ul>
-          <li>picture 3</li>
-          <div>
-            <ul>
-              <li>
-                i did this at work
+                i did this at work for a really long time, this is what i did. this is what i did. this is what i did. this is what i did
               </li>
               <li>
                 i did this at work 2
@@ -151,17 +90,44 @@
           </div>
         </ul>
       </div>
-      <div class="col">2018</div>
+      <div class="col">2021</div>
+    </div>
+
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-8">
+        <ul>
+          <li>Photon Commerce flask test </li>
+          <div>
+            <ul>
+              <li>
+                i did this at work for a really long time, this is what i did. this is what i did. this is what i did. this is what i did
+              </li>
+              <li>
+                i did this at work 2
+              </li>
+              <li>
+                i did this at work 
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      <div class="col">2021</div>
     </div>
   </div>
 
+
+
   <div class="container">
     <div class="row row-cols-4">
+
       <div class="col">
         <!-- Button trigger modal -->
         <div class="text center">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img class="img-fluid" id='education-pic' src="{{url_for('static', filename='images/lsa.png')}}" alt="">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          style="background-color:black;color:white;">
+            <img class="img-fluid" id='education-pic' src="{{url_for('static', filename='images/K.png')}}" alt="">
           </button>    
         </div>
 
@@ -170,13 +136,15 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Kickstarter Clone test</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <a href="https://kickstart-clone.herokuapp.com/#/"><img
-                  src="{{ url_for('static', filename='images/K.png') }}" alt="HTML tutorial"></a>
-                <p>Kickstarter Clone</p>
+                <a href="https://kickstart-clone.herokuapp.com/#/">
+                  <img class="img-fluid" src="{{ url_for('static', filename='images/K.png') }}" alt="HTML tutorial"></a>
+                <p>Kickstarter full stack clone. Ruby and Rails backend with SQL database. React and Redux front end. Feel free to sign up for a new account or 
+                  play around with the demo user account.
+                </p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -184,8 +152,8 @@
             </div>
           </div>
         </div>
-
       </div>
+
       <div class="col">
         <!-- Button trigger modal -->
         <div class="text center">
@@ -200,13 +168,13 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Ball Up</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <a href="https://kickstart-clone.herokuapp.com/#/"><img
                   src="{{ url_for('static', filename='images/K.png') }}" alt="HTML tutorial"></a>
-                <p>Kickstarter Clone</p>
+                <p>Pick Up Basketball Express App</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
